@@ -1,107 +1,137 @@
 <html>
-  <head>
-    <meta charset="utf-8" />
+
+<head>
+  <meta charset="utf-8" />
+<meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Hello Gridea | 逗鸟的10³脑洞实验室</title>
-<link rel="shortcut icon" href="https://checkedbird.gtihub.io/favicon.ico?v=1623638275123">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://checkedbird.gtihub.io/favicon.ico">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
 <link rel="stylesheet" href="https://checkedbird.gtihub.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Hello Gridea | 逗鸟的10³脑洞实验室 - Atom Feed" href="https://checkedbird.gtihub.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+<link rel="apple-touch-icon" href="https://checkedbird.gtihub.io/favicon.ico">
+<meta name="apple-mobile-web-app-title" content="XiaoX 博客">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 
+<!-- iconfont -->
+<link href="https://at.alicdn.com/t/font_2463772_glcffdg0qau.css" rel="stylesheet" />
 
-    <meta name="description" content="👏  欢迎使用 Gridea ！
-✍️  Gridea 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...
 
-Github
-Gridea 主页
-示例网站
-特性👇
-📝  你可以使用最酷的 Markdo..." />
-    <meta name="keywords" content="Gridea" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-  </head>
-  <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://checkedbird.gtihub.io">
-  <img class="avatar" src="https://checkedbird.gtihub.io/images/avatar.png?v=1623638275123" alt="">
-  </a>
-  <h1 class="site-title">
-    逗鸟的10³脑洞实验室
-  </h1>
-  <p class="site-description">
-    好好活着嘛
-  </p>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+<!-- DEMO JS -->
+<script src="media/scripts/index.js"></script>
+
+
+</head>
+
+<body>
+  <div class="main">
+    <div class="main-content">
+      <div class="nav-bar">
+  <!-- 首页菜单 -->
   <div class="menu-container">
-    
+    <a href="https://checkedbird.gtihub.io/index.html" target="_parent" class="home">
+      <svg class="home-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24">
+        <path fill="#fff" d="M12 14l9-5-9-5-9 5 9 5z"></path>
+        <path fill="#fff"
+          d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z">
+        </path>
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222">
+        </path>
+      </svg>
+      <span class="home-title">Home</span>
+    </a>
+
+    <div class="nav-menu">
       
-        <a href="/" class="menu">
-          首页
-        </a>
       
-    
+      <a href="/" class="menu">
+        首页
+      </a>
       
-        <a href="/archives" class="menu">
-          归档
-        </a>
       
-    
       
-        <a href="/tags" class="menu">
-          标签
-        </a>
+      <a href="/archives" class="menu">
+        归档
+      </a>
       
-    
       
-        <a href="/post/about" class="menu">
-          关于
-        </a>
       
-    
-  </div>
-  <div class="social-container">
-    
+      <a href="/tags" class="menu">
+        标签
+      </a>
       
-    
       
-    
       
-    
+      <a href="/post/about" class="menu">
+        关于
+      </a>
       
-    
       
-    
+
+
+
+      <a href="https://checkedbird.gtihub.io/atom.xml" target="_blank" class="rss">
+        <span class="rss-title">RSS</span>
+        <i class="iconfont icon-rss"></i>
+      </a>
+    </div>
   </div>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              Hello Gridea
-            </h2>
-            <div class="post-info">
-              <span>
-                2018-12-12
-              </span>
-              <span>
-                2 min read
-              </span>
-              
-                <a href="https://checkedbird.gtihub.io/0Xz3cR6f6/" class="post-tag">
-                  # Gridea
-                </a>
-              
-            </div>
-            
-              <img class="post-feature-image" src="https://checkedbird.gtihub.io/post-images/hello-gridea.png" alt="">
-            
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+      <div class="post-detail">
+        <article class="post">
+          
+          <div class="post-tag">
+          <svg class="tag-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M7 7h.01M7 3h5a1.99 1.99 0 011.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z">
+            </path>
+          </svg>
+            <a href="https://checkedbird.gtihub.io/0Xz3cR6f6/" class="tag">
+              Gridea
+            </a>
+          </div>
+          
+          <h2 class="post-title">
+            Hello Gridea
+          </h2>
+
+          <div class="post-info">
+            <svg class="post-date" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+            </svg>
+            <time class="post-time">
+              2018-12-12
+            </time>
+            <svg fill="none" class="view-icon" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z">
+              </path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z">
+              </path>
+            </svg>
+            <span id="/hello-gridea/" class="leancloud_visitors" data-flag-title="Hello Gridea">
+              <span class="leancloud-visitors-count"></span><span> 次阅读</span>
+            </span>
+            <span>
+              2 min read
+            </span>
+          </div>
+
+          
+          <div class="post-feature-image" style="background-image: url('https://checkedbird.gtihub.io/post-images/hello-gridea.png')">
+          </div>
+          
+          <div class="post-content">
+            <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
 <!-- more -->
 <p><a href="https://github.com/getgridea/gridea">Github</a><br>
@@ -123,74 +153,43 @@ Gridea 主页
 <p>尽情发挥你的才华吧！</p>
 <p>😘 Enjoy~</p>
 
-              </div>
-              <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E7%89%B9%E6%80%A7">特性👇</a></li>
-</ul>
-</li>
-</ul>
+          </div>
+        </article>
+      </div>
 
-              </div>
-            </div>
-          </article>
+      <div class="near-post">
+        <div>
+          
         </div>
+        <div>
+          
+        </div>
+      </div>
 
+      
+
+      <div class="valine">
         
+      </div>
 
-        
-
-        <div class="site-footer">
+      <div class="site-footer">
   
-  <a class="rss" href="https://checkedbird.gtihub.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
+  <b>Theme: </b>
+  <a href="https://github.com/chiperman/gridea-theme-porky" target="_blank" title="Porky">
+    <span><b>Porky</b></span>
+  </a>
+  <b>. Powered by </b>
+  <a href="https://gridea.dev/" target="_blank" title="Gridea">
+    <span><b>Gridea</b></span>
   </a>
 </div>
 
-      </div>
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
     </div>
+  </div>
+</body>
 
-    <script>
-      hljs.initHighlightingOnLoad()
-
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
-
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
-
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
-
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
-
-    </script>
-  </body>
 </html>
